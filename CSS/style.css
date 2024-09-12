@@ -1,0 +1,16 @@
+p {
+  font-family: "Courier New", Courier, monospace, sans-serif;
+}
+.PlanetInfo {
+  columns: 100px 2;
+}
+@media only screen and (max_width: 800px) {
+  .PlanetInfo {
+    columns: 100px 1;
+  }
+}
+h1 {
+  font-family: "Courier New", Courier, monospace, sans-serif;
+
+  color: #4918bd;
+}
